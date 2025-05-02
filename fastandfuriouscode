@@ -1,0 +1,236 @@
+#include <stdio.h>
+
+
+int main() {
+    int dom = 0, brian = 0, letty = 0, roman = 0, tej = 0;
+    int choice;
+
+    printf("🏎️  WELCOME TO 'WHICH FAST & FURIOUS CHARACTER ARE YOU?' 🏁\n\n");
+
+    // Question 1
+    printf("1. What's your #1 value?\n");
+    printf("1) Family\n");
+    printf("2) Loyalty\n");
+    printf("3) Freedom\n");
+    printf("4) Attention\n");
+    printf("5) Intelligence\n");
+    printf("Your choice: ");
+    scanf("%d", &choice);
+    if (choice == 1) dom++;
+    else if (choice == 2) brian++;
+    else if (choice == 3) letty++;
+    else if (choice == 4) roman++;
+    else if (choice == 5) tej++;
+    else
+        printf("Invalid Input! \n");
+
+    // Question 2
+    printf("\n2. Pick a ride:\n");
+    printf("1) American muscle car\n");
+    printf("2) Skyline GT-R\n");
+    printf("3) Motorcycle\n");
+    printf("4) Lamborghini or something wild\n");
+    printf("5) Custom modded sports car\n");
+    printf("Your choice: ");
+    scanf("%d", &choice);
+    if (choice == 1) dom++;
+    else if (choice == 2) brian++;
+    else if (choice == 3) letty++;
+    else if (choice == 4) roman++;
+    else if (choice == 5) tej++;
+    else
+        printf("Invalid Input! \n");
+
+    // Question 3
+    printf("\n3. In a high-stakes situation, you...\n");
+    printf("1) Stay calm and lead\n");
+    printf("2) Analyze and act cool\n");
+    printf("3) Fight with everything you’ve got\n");
+    printf("4) Freak out (but still come through)\n");
+    printf("5) Hack or problem-solve your way out\n");
+    printf("Your choice: ");
+    scanf("%d", &choice);
+    if (choice == 1) dom++;
+    else if (choice == 2) brian++;
+    else if (choice == 3) letty++;
+    else if (choice == 4) roman++;
+    else if (choice == 5) tej++;
+    else
+        printf("Invalid Input! \n");
+
+    // Question 4
+    printf("\n4. Pick a one-liner:\n");
+    printf("1) \"I don't have friends. I got family.\"\n");
+    printf("2) \"You can have any brew you want...\"\n");
+    printf("3) \"Ride or die.\"\n");
+    printf("4) \"Why do I smell baby oil?\"\n");
+    printf("5) \"I had to break into a police station to delete it.\"\n");
+    printf("Your choice: ");
+    scanf("%d", &choice);
+    if (choice == 1) dom++;
+    else if (choice == 2) brian++;
+    else if (choice == 3) letty++;
+    else if (choice == 4) roman++;
+    else if (choice == 5) tej++;
+    else
+        printf("Invalid Input! \n");
+
+    // Question 5
+    printf("\n5. What’s your ideal role in a heist?\n");
+    printf("1) The mastermind who keeps the team together\n");
+    printf("2) The wheelman who gets everyone out\n");
+    printf("3) The enforcer who handles problems head-on\n");
+    printf("4) The distraction — gotta look good doing it\n");
+    printf("5) The hacker in the van making it all happen\n");
+    printf("Your choice: ");
+    scanf("%d", &choice);
+    if (choice == 1) dom++;
+    else if (choice == 2) brian++;
+    else if (choice == 3) letty++;
+    else if (choice == 4) roman++;
+    else if (choice == 5) tej++;
+    else
+        printf("Invalid Input! \n");
+
+    // Question 6
+    printf("\n6. What's your go-to vibe in life?\n");
+    printf("1) Loyal protector\n");
+    printf("2) Laid-back but reliable\n");
+    printf("3) Intense and passionate\n");
+    printf("4) Funny and flashy\n");
+    printf("5) Clever and resourceful\n");
+    printf("Your choice: ");
+    scanf("%d", &choice);
+    if (choice == 1) dom++;
+    else if (choice == 2) brian++;
+    else if (choice == 3) letty++;
+    else if (choice == 4) roman++;
+    else if (choice == 5) tej++;
+    else
+        printf("Invalid Input! \n");
+
+    // Question 7
+    printf("\n7. How do you handle conflict?\n");
+    printf("1) Step up and take control\n");
+    printf("2) Try to reason and find common ground\n");
+    printf("3) Go full throttle — no holding back\n");
+    printf("4) Crack a joke to break the tension\n");
+    printf("5) Outsmart the situation from the sidelines\n");
+    printf("Your choice: ");
+    scanf("%d", &choice);
+    if (choice == 1) dom++;
+    else if (choice == 2) brian++;
+    else if (choice == 3) letty++;
+    else if (choice == 4) roman++;
+    else if (choice == 5) tej++;
+    else
+        printf("Invalid Input! \n");
+
+    // Question 8
+    printf("\n8. What’s your fashion style?\n");
+    printf("1) Classic tank top and jeans\n");
+    printf("2) Chill streetwear\n");
+    printf("3) Leather and combat boots\n");
+    printf("4) Designer brands and loud colors\n");
+    printf("5) Casual techwear with gadgets\n");
+    printf("Your choice: ");
+    scanf("%d", &choice);
+    if (choice == 1) dom++;
+    else if (choice == 2) brian++;
+    else if (choice == 3) letty++;
+    else if (choice == 4) roman++;
+    else if (choice == 5) tej++;
+    else
+        printf("Invalid Input! \n");
+
+    // Question 9
+    printf("\n9. Which city calls to you?\n");
+    printf("1) Los Angeles\n");
+    printf("2) Miami\n");
+    printf("3) Mexico City\n");
+    printf("4) Las Vegas\n");
+    printf("5) Tokyo\n");
+    printf("Your choice: ");
+    scanf("%d", &choice);
+    if (choice == 1) dom++;
+    else if (choice == 2) brian++;
+    else if (choice == 3) letty++;
+    else if (choice == 4) roman++;
+    else if (choice == 5) tej++;
+    else
+        printf("Invalid Input! \n");
+
+    // Question 10
+    printf("\n10. What motivates you?\n");
+    printf("1) Protecting loved ones\n");
+    printf("2) Doing the right thing\n");
+    printf("3) Loyalty to your crew\n");
+    printf("4) Living large and having fun\n");
+    printf("5) Mastering new skills and tech\n");
+    printf("Your choice: ");
+    scanf("%d", &choice);
+    if (choice == 1) dom++;
+    else if (choice == 2) brian++;
+    else if (choice == 3) letty++;
+    else if (choice == 4) roman++;
+    else if (choice == 5) tej++;
+    else
+        printf("Invalid Input! \n");
+
+    // Question 11
+    printf("\n11. What kind of party are you hitting?\n");
+    printf("1) Backyard BBQ with the fam\n");
+    printf("2) Underground street racing scene\n");
+    printf("3) Motorcycle rally\n");
+    printf("4) VIP club with bottle service\n");
+    printf("5) Chill tech lounge with cool gear\n");
+    printf("Your choice: ");
+    scanf("%d", &choice);
+    if (choice == 1) dom++;
+    else if (choice == 2) brian++;
+    else if (choice == 3) letty++;
+    else if (choice == 4) roman++;
+    else if (choice == 5) tej++;
+    else
+        printf("Invalid Input! \n");
+
+    // Question 12
+    printf("\n12. What’s your ultimate goal?\n");
+    printf("1) Build a life with your family\n");
+    printf("2) Redeem your past and find peace\n");
+    printf("3) Fight for those who can’t fight for themselves\n");
+    printf("4) Live fast, laugh hard, leave a legacy\n");
+    printf("5) Use your skills to change the game\n");
+    printf("Your choice: ");
+    scanf("%d", &choice);
+    if (choice == 1) dom++;
+    else if (choice == 2) brian++;
+    else if (choice == 3) letty++;
+    else if (choice == 4) roman++;
+    else if (choice == 5) tej++;
+    else
+        printf("Invalid Input! \n");
+
+    // Result
+    printf("\n🔥 Calculating your Fast & Furious identity...\n\n");
+
+    if (dom >= brian && dom >= letty && dom >= roman && dom >= tej) {
+        printf("🏆 You are DOMINIC TORETTO!\n");
+        printf("You're the fearless leader. Nothing matters more than *family*. 💪🍻\n");
+    } else if (brian >= dom && brian >= letty && brian >= roman && brian >= tej) {
+        printf("🚓 You are BRIAN O'CONNER!\n");
+        printf("Cool under pressure, always doing what’s right — even if it's not easy. 💙\n");
+    } else if (letty >= dom && letty >= brian && letty >= roman && letty >= tej) {
+        printf("🏍️ You are LETTY ORTIZ!\n");
+        printf("Fierce, loyal, and totally unshakable. A true ride-or-die. 🔥\n");
+    } else if (roman >= dom && roman >= brian && roman >= letty && roman >= tej) {
+        printf("😎 You are ROMAN PEARCE!\n");
+        printf("Always the loudest in the room, but we’d never leave you behind. 😅💥\n");
+    } else {
+        printf("🧠 You are TEJ PARKER!\n");
+        printf("Brains, style, and a smooth operator. You’re the tech wizard everyone counts on. 💻🚗\n");
+    }
+
+    printf("\nThanks for playing! Live life a quarter mile at a time. 🏁\n");
+    return 0;
+}
